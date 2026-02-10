@@ -1,0 +1,32 @@
+main,
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  flex-direction: column;
+}
+form {
+  flex-direction: row;
+  gap: 1em;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: pink;
+}
+
+input {
+  border: none;
+  background-color: magenta;
+  color: white;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  height: 5em;
+  width: 10em;
+  font-size: 2em;
+  box-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.2);
+}
